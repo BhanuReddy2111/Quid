@@ -43,7 +43,6 @@ const PrivateLimited = () => {
             <div>
                 {
                     Items.map((item,index)=><Tile key={index} img={item.img} title={item.title} caption={item.caption}/>)
-
                     // Changed this to map arrow function 
                 }
             </div>
