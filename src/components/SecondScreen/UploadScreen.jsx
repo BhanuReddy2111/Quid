@@ -1,9 +1,9 @@
 import pdf from '../icons/pdf.svg'
-import SecondScreenTile from './SecondScreenTile'
+import UploadScreenTile from './UploadScreenTile'
 import camera from "../icons/camera.svg"
 import upload from "../icons/upload.svg"
 
-export const SecondScreen = () => {
+export const UploadScreen = () => {
     return (
         <div>
             <div className=" font-bold mx-6 text-2xl text-center text-[#133039] capitalize">
@@ -13,8 +13,8 @@ export const SecondScreen = () => {
                 <img src={pdf} alt="pdf" />
             </div>
             <div>
-                <SecondScreenTile icon={camera} text="Take a photo"/>
-                <SecondScreenTile icon={upload} text="upload"/>
+                <UploadScreenTile icon={camera} text="Take a photo"/>
+                <UploadScreenTile icon={upload} text="Upload"/>
             </div>
         </div>
     )

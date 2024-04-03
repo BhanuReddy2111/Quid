@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
 
-const SecondScreenTile = (props) => {
+const UploadScreenTile = (props) => {
   return (
     <div className="flex border-2 rounded-2xl items-center p-4 mb-4">
         <div>
@@ -14,4 +14,4 @@ const SecondScreenTile = (props) => {
   )
 }
 
-export default SecondScreenTile
+export default UploadScreenTile
